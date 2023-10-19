@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoachItem.vue Should match Snapshot 1`] = `
+<li description="I'm Maximilian and I've worked as a freelance web developer for years. Let me help you become a developer as well!">
+  <h3>Maximilian Schwarzmüller</h3>
+  <h4>$30/hour</h4>
+  <div>
+    <base-badge-stub title="frontend" type="frontend"></base-badge-stub>
+    <base-badge-stub title="backend" type="backend"></base-badge-stub>
+    <base-badge-stub title="career" type="career"></base-badge-stub>
+  </div>
+  <div class="actions">
+    <base-button-stub mode="outline" link="true" to="/coaches/c1/contact">Contact</base-button-stub>
+    <base-button-stub link="true" to="/coaches/c1">View Details</base-button-stub>
+  </div>
+</li>
+`;
