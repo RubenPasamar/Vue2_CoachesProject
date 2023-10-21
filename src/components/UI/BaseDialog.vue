@@ -100,7 +100,10 @@ menu {
   margin: 0;
 }
 
-.dialog-enter-from,
+.dialog-enter {
+  opacity: 0 !important;
+  transform: scale(0.8) !important;
+}
 .dialog-leave-to {
   opacity: 0;
   transform: scale(0.8);

@@ -57,7 +57,7 @@ export default {
                 return false;
             })
         },
-        hasCoaches() { 
+        hasCoaches() {
             return !this.isLoading && this.$store.getters['coaches/hasCoaches'];
         },
         isCoach() {
